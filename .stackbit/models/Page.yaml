@@ -1,0 +1,12 @@
+name: Page
+hideContent: true
+fields:
+  - type: string
+    name: title
+    label: Title
+    default: This is a new page
+    required: true
+  - type: model
+    name: exampleInPage
+    models:
+      - anotherExample

@@ -1,0 +1,17 @@
+stackbitVersion: ~0.4.0
+ssgName: custom
+nodeVersion: '14'
+cmsName: git
+dataDir: content/data
+pagesDir: content/pages
+pageLayoutKey: layout
+objectTypeKey: type
+contentModels:
+  Page:
+    isPage: true
+    urlPath: '/{slug}'
+    newFilePath: '{slug}.json'
+modelsSource:
+  type: files
+  modelDirs:
+    - .stackbit/models

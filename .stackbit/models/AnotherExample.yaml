@@ -1,0 +1,5 @@
+name: anotherExample
+label: Another Example Object
+fields:
+  - type: string
+    name: title
