@@ -42,4 +42,4 @@ testem.log
 Thumbs.db
 
 # Stackbit
-.sourcebit-angular-cache.json
+# .sourcebit-angular-cache.json
