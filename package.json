@@ -2,7 +2,8 @@
   "name": "stackbit-angular-spa",
   "version": "0.0.0",
   "scripts": {
-    "dev": "concurrently \"ng serve\" \"node sourcebit-watch.js\"",
+    "dev": "ng serve",
+    "dev2": "concurrently \"ng serve\" \"node sourcebit-watch.js\"",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
