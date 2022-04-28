@@ -2,6 +2,10 @@ stackbitVersion: ~0.4.0
 ssgName: custom
 nodeVersion: '14'
 cmsName: git
+
+buildCommand: npm run build
+publishDir: dist
+
 dataDir: content/data
 pagesDir: content/pages
 pageLayoutKey: layout
@@ -15,5 +19,3 @@ modelsSource:
   type: files
   modelDirs:
     - .stackbit/models
-buildCommand: npm run build
-publishDir: dist
