@@ -15,3 +15,5 @@ modelsSource:
   type: files
   modelDirs:
     - .stackbit/models
+buildCommand: npm run build
+publishDir: dist
