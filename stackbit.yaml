@@ -4,6 +4,7 @@ nodeVersion: '14'
 cmsName: git
 
 buildCommand: npm run build
+devCommand: npm run dev
 publishDir: dist
 
 dataDir: content/data
